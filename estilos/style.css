@@ -20,12 +20,12 @@
     }
 
     #logo_cmr{
-        width: 3.8em;
-        height: 3.8em;
+        width: 3.4em;
+        height: 3.4em;
     }
 
     #div_h1{
-        width: 15em;
+        width: 40em;
         margin: auto;
     }
 
@@ -49,9 +49,33 @@
         height: 2.2em;
     }
 
+    #icone_barra:active{
+        animation: deslizar 1s ease-out; 
+    }
+
     #container{
         width: 50%;
         margin: auto;
         background-color: white;
+        border-radius: 1em;
     }
+
+    #lista_assuntos{
+        list-style-type: none;
+        list-style-position: inside;
+        font: normal 1.2em Arial, sans-serif;
+    }
+
+    .li_assuntos{
+        padding-top: 2%;
+        padding-left: 2%;
+    }
+
+    .link_assunto{
+        color: blue;
+        text-decoration: none;
+    }
+
+    @keyframes deslizar{}
+
 }
