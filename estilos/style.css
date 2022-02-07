@@ -5,18 +5,26 @@
     margin: 0;
 }
 
+:root{
+    --cor01: #3A7A6C;
+    --cor02: #C1FBEE;
+    --cor03: #76FADD;
+    --cor04: #5E7A74;
+    --cor05: #5DC7B0; 
+}
+
 @media screen and (max-width: 100em){
     header{
         position: relative;
         top: 100%;
         display: flex;
-        background-color: cyan;
+        background-color: var(--cor03);
         width: 100%;
         margin-bottom: 5%;
     }
 
     body{
-        background-color: bisque;
+        background-color: var(--cor05);
     }
 
     #logo_cmr{
